@@ -1,0 +1,6 @@
+.flash .product {
+  transition: 0.5s;
+}
+.flash .product:hover {
+  box-shadow: #2b34451a  0 4px 16px;
+}
