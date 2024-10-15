@@ -28,3 +28,6 @@
   position: absolute;
   right: 0;
 }
+.box.product .img img {
+  width: 100%;
+}

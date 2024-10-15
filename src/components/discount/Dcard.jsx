@@ -9,6 +9,32 @@ const Dcard = () => {
     slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
+    responsive: [
+      {
+        breakpoint: 1124,
+        settings: {
+          slidesToShow: 5,
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+        }
+      },
+      {
+        breakpoint: 940,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 595,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+    ]
   }
   return (
     <>

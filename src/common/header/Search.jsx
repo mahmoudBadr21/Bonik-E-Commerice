@@ -5,7 +5,7 @@ import logo from '../../images/logo.svg'
 const Search = ({cartItem}) => {
   window.addEventListener("scroll" , () => {
     const search = document.querySelector(".search")
-    search.classList.toggle("active", window.scrollY > 100)
+    search.classList.toggle("active", window.scrollY > 95)
   })
   return (
     <>
@@ -17,7 +17,10 @@ const Search = ({cartItem}) => {
 
           <div className="search-box f_flex">
             <i className="fa fa-search"></i>
-            <input type="text" placeholder='Search and hit enter...' />
+            {window.innerWidth < 576 ?
+              <input type="text" placeholder='Search ...' /> :
+              <input type="text" placeholder='Search and hit enter...' />
+            }
             <span>All Category</span>
           </div>
 

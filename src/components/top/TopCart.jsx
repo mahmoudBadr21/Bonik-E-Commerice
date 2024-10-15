@@ -10,6 +10,20 @@ const TopCart = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
+    responsive: [
+      {
+        breakpoint: 930,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 615,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+    ]
   }
   return (
     <>

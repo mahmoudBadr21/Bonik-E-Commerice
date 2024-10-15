@@ -27,3 +27,30 @@
   left: 0;
   margin: auto;
 }
+/* medium screen */
+@media (max-width: 930px){
+  .home .container {
+    flex-direction: column;
+  }
+  .home .category {
+    width: 100%;
+  }
+  .home .homeSlide {
+    width: 100%;
+  }
+}
+/* small screen */
+@media (max-width: 768px){
+  .home .top {
+    margin-top: 40px;
+  }
+  .homeSlide h1 {
+    font-size: 30px;
+  }
+  .homeSlide img {
+    max-width: 250px;
+  }
+  .homeSlide ul {
+    bottom: -35px;
+  }
+}

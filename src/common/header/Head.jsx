@@ -8,6 +8,7 @@ const Head = () => {
           <div className="left row">
             <i className='fas fa-phone'></i>
             <label>+2143 4214 9821</label>
+            <br />
             <i className='fas fa-envelope'></i>
             <label>uilib.help@gmail.com</label>
           </div>

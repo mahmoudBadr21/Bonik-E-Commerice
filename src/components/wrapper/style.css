@@ -1,6 +1,9 @@
 .wrapper {
   text-align: center;
 }
+.wrapper .grid2 {
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+}
 .wrapper .img {
   margin: auto;
   width: 70px;

@@ -26,3 +26,6 @@
   line-height: 44px;
   text-align: center;
 }
+.newarrivals .grid {
+  grid-template-columns:repeat(auto-fill, minmax(145px, 1fr));
+}

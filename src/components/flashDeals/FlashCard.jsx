@@ -39,6 +39,26 @@ const FlashCard = ({productItems , addToCart}) => {
     slidesToScroll: 1,
     nextArrow:<NextArrow />,
     prevArrow:<PrevArrow />,
+    responsive: [
+      {
+        breakpoint: 930,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 769,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 570,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+    ]
   }
   return (
     <>

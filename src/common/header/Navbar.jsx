@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
       <header className='header'>
-        <div className="container d_flex">
+        <div className="container c_flex">
           <div className="categrories d_flex">
             <span className='fa-solid fa-border-all'></span>
             <h4>

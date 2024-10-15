@@ -9,7 +9,7 @@
 .chead h1:nth-child(2) {
   opacity: 0.5;
   border-left: 3px solid #0000005a;
-  padding-left: 45px;
+  padding-left: 25px;
 }
 .shop .category .box {
   background-color: #f6f9fc;
@@ -43,12 +43,32 @@
 }
 .grid1 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-gap: 20px;
 }
 .shop .product {
   transition: 0.5s;
 }
+.box .product .img {
+  text-align: center;
+}
 .shop .product:hover {
   box-shadow: #2b34451a  0 4px 16px;
+}
+/* medium screen */
+@media (max-width: 940px){
+  .shop .container {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+  .shop .contentWidth {
+    width: 100%;
+    margin-left: 0;
+  }
+  .shop .category {
+    width: 100%;
+  }
+  .shop .category .box2 {
+    margin-top: 0;
+  }
 }
