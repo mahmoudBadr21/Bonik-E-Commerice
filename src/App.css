@@ -220,6 +220,15 @@ button {
   font-size: 25px;
   margin: 5px;
 }
+/* mobile screen */
+@media (max-width: 631px){
+  .heading .heading-left h2 {
+    font-size: 20px;
+  }
+  .heading .heading-left i {
+    font-size: 26px;
+  }
+}
 .heading .heading-right,
 .heading .heading-right i {
   text-align: right;

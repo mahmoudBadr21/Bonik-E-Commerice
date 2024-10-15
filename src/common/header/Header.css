@@ -11,6 +11,9 @@
   margin-right: 30px;
   font-size: 13px;
 }
+.head label.mail {
+  margin-right: 0;
+}
 /* end Head */
 /* start search */
 .search {
@@ -195,5 +198,6 @@ header ul li a:hover {
   }
   .icon-circle {
     padding: 12px;
+    margin-left: 8px;
   }
 }

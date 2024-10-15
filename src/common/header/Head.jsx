@@ -10,7 +10,7 @@ const Head = () => {
             <label>+2143 4214 9821</label>
             <br />
             <i className='fas fa-envelope'></i>
-            <label>uilib.help@gmail.com</label>
+            <label className='mail'>uilib.help@gmail.com</label>
           </div>
           <div className="right row RText">
             <label>Theme FQA</label>

@@ -29,3 +29,15 @@
 .newarrivals .grid {
   grid-template-columns:repeat(auto-fill, minmax(145px, 1fr));
 }
+/* mobile screen */
+@media (max-width: 631px){
+  .newarrivals .grid {
+    grid-template-columns:repeat(auto-fill, minmax(120px, 1fr));
+  }
+  .newarrivals .heading-left .icon {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 39px;
+  }
+}
